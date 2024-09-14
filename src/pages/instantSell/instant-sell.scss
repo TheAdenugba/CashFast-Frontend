@@ -1,0 +1,90 @@
+.instant_sell {
+  background: #f2f4f7;
+  height: calc(100vh - 77.3px);
+  padding: 48px 24px 16px;
+
+  @media (max-width: 768px) {
+    height: calc(100vh - 65.3px);
+  }
+
+  .instant_sell_inner {
+    width: 100%;
+    max-width: 474px;
+    margin: 0 auto;
+
+    .instant_sell__title {
+      color: #101828;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .instant_sell_main {
+      margin-top: 24px;
+      background: #ffffff;
+      border: 1px solid #f2f4f7;
+      padding: 32px 16px;
+      border-radius: 12px;
+    }
+  }
+}
+
+//instant sell form
+.oauth_buttons {
+  width: 100%;
+
+  @media (max-width: 568px) {
+    flex-direction: column;
+  }
+
+  button {
+    width: calc(50% - 8px);
+
+    @media (max-width: 568px) {
+      width: 100%;
+    }
+  }
+}
+
+.powered_by {
+  margin-top: 8px;
+  text-align: center;
+  color: #98a2b3;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.mantine-InputWrapper-label {
+  color: #475467;
+}
+
+.mantine-InputWrapper-description {
+  color: #98a2b3 !important;
+  font-weight: 500;
+}
+
+.mantine-NumberInput-section {
+  border-left: 1px solid #eaecf0 !important;
+}
+
+// review transaction
+.review_transaction {
+  .review_transaction__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eaecf0;
+
+    .review_transaction__title {
+      color: #101828;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .review_transaction__header__right {
+      color: #667085;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,9 +1,9 @@
 import { createTheme, MantineProvider } from "@mantine/core";
-import InstantSell from "./pages/instantSell/instantSell";
+import InstantSell from "./pages/instantSell";
 import Header from "./assets/components/header/header";
+import UserNotice from "./assets/components/userNotice/userNotice";
 import "./App.scss";
 import "@mantine/core/styles.css";
-import UserNotice from "./assets/components/userNotice/userNotice.tsx";
 
 const App = () => {
   const theme = createTheme({
@@ -29,7 +29,6 @@ const App = () => {
   return (
     <MantineProvider theme={theme}>
       <UserNotice />
-
       <Header />
       <InstantSell />
     </MantineProvider>
