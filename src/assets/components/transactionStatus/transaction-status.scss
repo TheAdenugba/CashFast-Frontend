@@ -1,0 +1,19 @@
+.transaction_status {
+  padding-bottom: 16px;
+  text-align: center;
+
+  .transaction_status__title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+  }
+
+  .transaction_status_summary {
+    color: #667085;
+    font-size: 14px;
+
+    span {
+      font-weight: 600;
+    }
+  }
+}
