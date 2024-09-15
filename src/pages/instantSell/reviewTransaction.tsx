@@ -178,7 +178,7 @@ const ReviewTransaction = ({ goBack }: ReviewTransactionProps) => {
 
           <Button
             onClick={() =>
-              setTransactionStatusModal(TransactionStatusTypes.PENDING)
+              setTransactionStatusModal(TransactionStatusTypes.SUCCESS)
             }
           >
             Approve USDT
