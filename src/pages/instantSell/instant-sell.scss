@@ -9,7 +9,7 @@
 
   .instant_sell_inner {
     width: 100%;
-    max-width: 474px;
+    max-width: 484px;
     margin: 0 auto;
 
     .instant_sell__title {
@@ -85,6 +85,59 @@
       color: #667085;
       font-size: 14px;
       font-weight: 500;
+    }
+  }
+
+  .recipient_details {
+    .recipient_details__title {
+      font-weight: 600;
+      font-size: 14px;
+      color: #101828;
+    }
+
+    .recipient_details__content {
+      background: #f2f4f7;
+      padding: 8px 16px;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
+
+      .recipient_details__content__details {
+        font-size: 14px;
+        font-weight: 500;
+
+        .recipient_details__content__details__bank {
+          color: #667085;
+        }
+
+        .recipient_details__content__details__account {
+          color: #101828;
+
+          span {
+            color: #667085;
+          }
+        }
+      }
+    }
+  }
+
+  .mantine-Alert-root {
+    padding: 8px;
+    --alert-bg: #fffaeb !important;
+
+    .mantine-Alert-icon {
+      margin-right: 8px;
+    }
+
+    .mantine-Alert-label {
+      color: #667085 !important;
+      font-weight: 500 !important;
+    }
+
+    .mantine-Checkbox-label {
+      font-weight: 500;
+      color: #98a2b3 !important;
     }
   }
 }

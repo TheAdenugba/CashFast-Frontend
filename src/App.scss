@@ -1,9 +1,28 @@
 button {
   font-weight: 500 !important;
   height: 40px !important;
+
+  &[data-variant="default"] {
+    border-color: #eaecf0 !important;
+  }
 }
 
 .mantine-Input-input {
   height: 40px !important;
   border: 1px solid #eaecf0 !important;
+}
+
+.mantine-Checkbox-label,
+.mantine-Switch-label {
+  color: #667085 !important;
+  padding-left: 6px !important;
+}
+
+.mantine-Switch-label {
+  font-weight: 500;
+}
+
+.mantine-Modal-title {
+  font-weight: 500 !important;
+  color: #101828 !important;
 }

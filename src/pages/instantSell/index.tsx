@@ -20,14 +20,11 @@ const InstantSell = () => {
               nextStage={() => setStage(InstantSellStages.REVIEW_TRANSACTION)}
             />
           )}
+
           {stage === InstantSellStages.REVIEW_TRANSACTION && (
             <ReviewTransaction
               goBack={() => setStage(InstantSellStages.PROVIDE_DETAILS)}
-              nextStage={() => setStage(InstantSellStages.TRANSACTION_RECEIPT)}
             />
-          )}
-          {stage === InstantSellStages.TRANSACTION_RECEIPT && (
-            <div>Transaction receipt</div>
           )}
         </div>
       </div>

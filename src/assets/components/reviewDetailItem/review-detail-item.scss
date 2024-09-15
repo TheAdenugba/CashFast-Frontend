@@ -1,0 +1,15 @@
+.review_detail_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+
+  .review_detail_item__label {
+    color: #667085;
+  }
+
+  .review_detail_item__value {
+    font-weight: 600;
+    color: #101828;
+  }
+}
